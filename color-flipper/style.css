@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-size: 2rem;
+}
+nav {
+    height: 100px;
+    background-color: antiquewhite;
+    display: flex;
+    justify-content: space-around;
+    
+}
+nav div {
+    display: flex;
+    justify-content: space-around;
+    gap: 3rem;
+    
+    
+}
+nav  .simple:hover{
+    background-color: wheat;
+    width: fit-content;
+    height: fit-content;
+    border-radius:3px;
+}
+
+nav  .hex:hover{
+    background-color: aqua;
+    width: fit-content;
+    height: fit-content;
+    border-radius: 3px;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    
+    gap: 1rem;
+    
+}
+div.red,div.green,div.blue {
+    display: flex;
+    gap: 1rem;
+    border: 10px solid yellow;
+    border-radius: 15px;
+
+    font-size: 2rem;
+   
+
+}
+.display {
+    font-size: 2rem;
+}
+button{
+    font-size: 1.5rem;
+}
+.random {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.firstbox{
+    border: 7px solid black;
+    border-radius: 10px;
+    width: 40%;
+}
+.secondbox{
+    border: 7px dashed black;
+    border-radius: 10px;
+    width: 40%;
+}
+.none{
+    display: none;
+}
+
+
